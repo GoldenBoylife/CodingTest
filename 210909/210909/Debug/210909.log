@@ -1,0 +1,6 @@
+﻿  main.cpp
+main.obj : error LNK2019: "public: __thiscall Stock::Stock(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,float)" (??0Stock@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HM@Z)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: "public: class Stock & __thiscall Stock::topval(class Stock &)" (?topval@Stock@@QAEAAV1@AAV1@@Z)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: "public: void __thiscall Stock::show(void)" (?show@Stock@@QAEXXZ)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+main.obj : error LNK2019: "public: __thiscall Stock::~Stock(void)" (??1Stock@@QAE@XZ)_main 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\hwido\Documents\CodingTest\210909\Debug\210909.exe : fatal error LNK1120: 4개의 확인할 수 없는 외부 참조입니다.
